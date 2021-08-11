@@ -1,0 +1,608 @@
+@charset "utf-8";
+/* CSS Document */
+
+	
+	th{color: rgba(218,217,217,1.00)}
+	
+	.container
+		{
+			width: 100%;
+			height: auto;
+			background-color:rgba(22,22,22,1.00);
+			margin: 0 auto;
+		}
+	
+	.thanhbangchon
+		{
+			width: 80%;
+			height: 65px;
+			background-color:rgba(0,0,0,1.00);
+			margin: 0 auto;
+		}
+	
+	.phimhot
+		{
+			width: 80%;
+			height: 800px;
+			background-color:rgba(22,22,22,1.00);
+			margin: 0 auto;
+			background-image: url("../images/banner-hot.png");
+			background-size: cover;
+			background-repeat: no-repeat;
+			
+		
+			
+		}
+	
+	.phobien
+		{
+			width: 80%;
+			height: 480px;
+			background-color:rgba(22,22,22,1.00);
+			margin: 0 auto;
+			display: flex;
+			justify-content: center;
+			
+			
+				
+		}
+	.dangxem
+		{
+			width:80%;
+			height: 500px;
+			background-color:rgba(22,22,22,1.00);
+			margin: 0 auto;
+			display: flex;
+			justify-content: center;
+		}
+	.dexuat
+		{
+			width: 100%;
+			height: 500px;
+			background-color:blanchedalmond;
+			margin: 0 auto;
+		}
+	.cuoicung
+		{
+			width: 60%;
+			height: 500px;
+			background-color:rgba(22,22,22,1.00);
+			margin: 0 auto;
+		}
+		
+		
+		
+	.phobien_1
+		{
+			width: 18%;
+			height: 400px;
+			background-image: url("../images/poster-01.png");
+			background-size: cover;
+			background-repeat: no-repeat;
+			margin: 0 auto;
+			float: left;
+		    padding: 450px 30px 20px 30px;
+			box-sizing: border-box;
+			
+			display: flex;
+			justify-content: center;
+			border-radius: 20px;
+			transition: all 0.4s linear;
+	        transform: scale(1);
+	        opacity: 1;
+			margin-right: 20px ;
+		}
+.phobien_1:hover
+{
+	transform: scale(1.13);
+	opacity: 0.9;
+}
+.phobien_2:hover
+{
+	transform: scale(1.13);
+	opacity: 0.9;
+}.phobien_3:hover
+{
+	transform: scale(1.13);
+	opacity: 0.9;
+}
+.phobien_4:hover
+{
+	transform: scale(1.13);
+	opacity: 0.9;
+}
+.phobien_5:hover
+{
+	transform: scale(1.13);
+	opacity: 0.9;
+}
+	.phobien_2
+		{
+			width: 18%;
+			height: 400px;
+			background-image: url("../images/poster-02.png");
+			margin: 0 auto;
+			float: left;
+			padding: 450px 30px 20px 30px;
+			box-sizing: border-box;
+			background-size:cover;
+			background-repeat: no-repeat;
+			display: flex;
+			justify-content: center;
+			transition: all 0.4s linear;
+	        transform: scale(1);
+	        opacity: 1;
+			border-radius: 20px;
+			margin-right: 20px;
+		}	
+	.phobien_3
+		{
+			width: 18%;
+			height: 400px;
+			background-image: url("../images/poster-03.png");
+			margin: 0 auto;
+			float: left;
+			 padding: 450px 30px 20px 30px;
+			box-sizing: border-box;
+		    background-size: cover;
+			background-repeat: no-repeat;
+			display: flex;
+			justify-content: center;
+			transition: all 0.4s linear;
+	        transform: scale(1);
+	        opacity: 1;
+			border-radius: 20px;
+			margin-right: 20px;
+		}	
+	.phobien_4
+		{
+			width: 18%;
+			height: 400px;
+			background-image: url("../images/poster-04.png");
+			margin: 0 auto;
+			float: left;
+			 padding: 450px 30px 20px 30px;
+			box-sizing: border-box;
+			background-size: cover;
+			background-repeat: no-repeat;
+			display: flex;
+			justify-content: center;
+			transition: all 0.4s linear;
+	        transform: scale(1);
+	        opacity: 1;
+			border-radius: 20px;
+			margin-right: 20px;
+		}	
+	.phobien_5
+		{
+			width: 18%;
+			height: 400px;
+			background-image: url("../images/poster-05.png");
+			margin: 0 auto;
+			float: left;
+			 padding: 450px 30px 20px 30px;
+			box-sizing: border-box;
+			background-size: cover;
+			background-repeat: no-repeat;
+			display: flex;
+			justify-content: center;
+			transition: all 0.4s linear;
+	        transform: scale(1);
+	        opacity: 1;
+			border-radius: 20px;
+			margin-right: 20px;
+		}
+	
+	.menu 
+		{
+			width: 900px;
+			height: 70px;
+			font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+			background-color: rgba(0,0,0,0.00)
+			
+		}
+	.menu ul
+		{
+			/* bo chấm đầu dòng*/
+			list-style: none;
+			padding: 0;
+		}
+	.menucuoi ul
+		{
+			/* bo chấm đầu dòng*/
+			list-style: none;
+			padding: 0;
+		}
+	
+		
+	.menucuoi ul li a
+		{ 
+		text-decoration: none;
+		color: rgba(79,78,78,1.00)
+		}
+
+	.menucuoi
+{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	
+}
+
+
+
+
+	.menu ul li
+		{
+			padding: 20px;
+			float: left;
+		}
+		
+	.menu ul li a
+		{ 
+		text-decoration: none;
+		color: aliceblue
+		}
+	.cuoicung1
+		{
+			width: 20%;
+			height: 400px;
+			background-color:darkgrey;
+			margin: 0 auto;
+			float: left;
+			box-sizing: border-box;
+			
+		}
+		
+.tieude0
+	{
+		width: 80%;
+		height: 30px;
+		margin-left: 195px;
+		float: left;
+	}
+.tieude11
+	{
+		width: 20%;                                                                                                                      
+		height: 100%;
+		display:flex;
+		justify-content: center;
+		float: left;
+		color:#FFFFFF;
+		font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+		font-size: 20px;
+	}
+.thanhtieude
+{
+	width: 80%;
+	height: 50px;
+
+	margin: 0 auto;
+	margin-top: 10px;
+    padding-left: 10px;
+	box-sizing: border-box;
+	color:#FFFFFF;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 35px;
+	
+}
+
+
+	.dangxem1
+		{
+			width: 18%;
+			height: 400px;
+			background-image: url("../images/poster-06.png");
+			background-size: cover;
+			background-repeat: no-repeat;
+			margin: 0 auto;
+			float: left;
+		    padding: 450px 30px 20px 30px;
+			box-sizing: border-box;
+			
+			display: flex;
+			justify-content: center;
+			border-radius: 20px;
+			transition: all 0.4s linear;
+	        transform: scale(1);
+	        opacity: 1;
+			margin-right: 20px ;
+		}
+.phobien_1:hover
+{
+	transform: scale(1.13);
+	opacity: 0.9;
+}
+.phobien_2:hover
+{
+	transform: scale(1.13);
+	opacity: 0.9;
+}.phobien_3:hover
+{
+	transform: scale(1.13);
+	opacity: 0.9;
+}
+.phobien_4:hover
+{
+	transform: scale(1.13);
+	opacity: 0.9;
+}
+.phobien_5:hover
+{
+	transform: scale(1.13);
+	opacity: 0.9;
+}
+	.dangxem2
+		{
+			width: 18%;
+			height: 400px;
+			background-image: url("../images/poster-07.png");
+			margin: 0 auto;
+			float: left;
+			padding: 450px 30px 20px 30px;
+			box-sizing: border-box;
+			background-size:cover;
+			background-repeat: no-repeat;
+			display: flex;
+			justify-content: center;
+			transition: all 0.4s linear;
+	        transform: scale(1);
+	        opacity: 1;
+			border-radius: 20px;
+			margin-right: 20px;
+		}	
+	.dangxem3
+		{
+			width: 18%;
+			height: 400px;
+			background-image: url("../images/poster-08.png");
+			margin: 0 auto;
+			float: left;
+			 padding: 450px 30px 20px 30px;
+			box-sizing: border-box;
+		    background-size: cover;
+			background-repeat: no-repeat;
+			display: flex;
+			justify-content: center;
+			transition: all 0.4s linear;
+	        transform: scale(1);
+	        opacity: 1;
+			border-radius: 20px;
+			margin-right: 20px;
+		}	
+	.dangxem4
+		{
+			width: 18%;
+			height: 400px;
+			background-image: url("../images/poster-09.png");
+			margin: 0 auto;
+			float: left;
+			 padding: 450px 30px 20px 30px;
+			box-sizing: border-box;
+			background-size: cover;
+			background-repeat: no-repeat;
+			display: flex;
+			justify-content: center;
+			transition: all 0.4s linear;
+	        transform: scale(1);
+	        opacity: 1;
+			border-radius: 20px;
+			margin-right: 20px;
+		}	
+	.dangxem5
+		{
+			width: 18%;
+			height: 400px;
+			background-image: url("../images/poster-10.png");
+			margin: 0 auto;
+			float: left;
+			 padding: 450px 30px 20px 30px;
+			box-sizing: border-box;
+			background-size: cover;
+			background-repeat: no-repeat;
+			display: flex;
+			justify-content: center;
+			transition: all 0.4s linear;
+	        transform: scale(1);
+	        opacity: 1;
+			border-radius: 20px;
+			margin-right: 20px;
+		}
+
+
+.dangxem1:hover
+{
+	transform: scale(1.13);
+	opacity: 0.9;
+}
+.dangxem2:hover
+{
+	transform: scale(1.13);
+	opacity: 0.9;
+}.dangxem3:hover
+{
+	transform: scale(1.13);
+	opacity: 0.9;
+}
+.dangxem4:hover
+{
+	transform: scale(1.13);
+	opacity: 0.9;
+}
+.dangxem5:hover
+{
+	transform: scale(1.13);
+	opacity: 0.9;
+}
+
+
+
+.thanhtieude
+{
+	width: 80%;
+	height: 50px;
+
+	margin: 0 auto;
+	margin-top: 10px;
+    padding-left: 10px;
+	box-sizing: border-box;
+	color:#FFFFFF;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 35px;
+	
+}
+
+
+	.dexuat1
+		{
+			width: 18%;
+			height: 100px;
+			background-image: url("../images/poster-11.png");
+			background-size: cover;
+			background-repeat: no-repeat;
+			margin: 0 auto;
+			float: left;
+		    padding: 450px 30px 20px 30px;
+			box-sizing: border-box;
+			
+			display: flex;
+			justify-content: center;
+			border-radius: 20px;
+			transition: all 0.4s linear;
+	        transform: scale(1);
+	        opacity: 1;
+			margin-right: 20px ;
+		}
+.phobien_1:hover
+{
+	transform: scale(1.13);
+	opacity: 0.9;
+}
+.phobien_2:hover
+{
+	transform: scale(1.13);
+	opacity: 0.9;
+}.phobien_3:hover
+{
+	transform: scale(1.13);
+	opacity: 0.9;
+}
+.phobien_4:hover
+{
+	transform: scale(1.13);
+	opacity: 0.9;
+}
+.phobien_5:hover
+{
+	transform: scale(1.13);
+	opacity: 0.9;
+}
+	.dexuat2
+		{
+			width: 18%;
+			height: 400px;
+			background-image: url("../images/poster-12.png");
+			margin: 0 auto;
+			float: left;
+			padding: 450px 30px 20px 30px;
+			box-sizing: border-box;
+			background-size:cover;
+			background-repeat: no-repeat;
+			display: flex;
+			justify-content: center;
+			transition: all 0.4s linear;
+	        transform: scale(1);
+	        opacity: 1;
+			border-radius: 20px;
+			margin-right: 20px;
+		}	
+	.dexuat3
+		{
+			width: 18%;
+			height: 400px;
+			background-image: url("../images/poster-13.png");
+			margin: 0 auto;
+			float: left;
+			 padding: 450px 30px 20px 30px;
+			box-sizing: border-box;
+		    background-size: cover;
+			background-repeat: no-repeat;
+			display: flex;
+			justify-content: center;
+			transition: all 0.4s linear;
+	        transform: scale(1);
+	        opacity: 1;
+			border-radius: 20px;
+			margin-right: 20px;
+		}	
+	.dexuat4
+		{
+			width: 18%;
+			height: 400px;
+			background-image: url("../images/poster-14.png");
+			margin: 0 auto;
+			float: left;
+			 padding: 450px 30px 20px 30px;
+			box-sizing: border-box;
+			background-size: cover;
+			background-repeat: no-repeat;
+			display: flex;
+			justify-content: center;
+			transition: all 0.4s linear;
+	        transform: scale(1);
+	        opacity: 1;
+			border-radius: 20px;
+			margin-right: 20px;
+		}	
+	.dexuat5
+		{
+			width: 18%;
+			height: 400px;
+			background-image: url("../images/poster-15.png");
+			margin: 0 auto;
+			float: left;
+			 padding: 450px 30px 20px 30px;
+			box-sizing: border-box;
+			background-size: cover;
+			background-repeat: no-repeat;
+			display: flex;
+			justify-content: center;
+			transition: all 0.4s linear;
+	        transform: scale(1);
+	        opacity: 1;
+			border-radius: 20px;
+			margin-right: 20px;
+		}
+
+
+.dexuat1:hover
+{
+	transform: scale(1.13);
+	opacity: 0.9;
+}
+.dexuat2:hover
+{
+	transform: scale(1.13);
+	opacity: 0.9;
+}.dexuat3:hover
+{
+	transform: scale(1.13);
+	opacity: 0.9;
+}
+.dexuat4:hover
+{
+	transform: scale(1.13);
+	opacity: 0.9;
+}
+.dexuat5:hover
+{
+	transform: scale(1.13);
+	opacity: 0.9;
+}
+
+
+.menucuoi
+{
+	
+	
+	
+}
+
